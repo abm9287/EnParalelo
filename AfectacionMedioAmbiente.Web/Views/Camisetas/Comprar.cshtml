@@ -1,0 +1,40 @@
+﻿@model IEnumerable<AfectacionMedioAmbiente.Web.Models.Camiseta>
+
+@{
+    ViewData["Title"] = "Comprar";
+}
+<h1>Compre sus camisetas diseñadas con mano Ecuatoriana 90% algodón</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th>Comando.....</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var articulo in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(x => articulo.Marca)
+                </td>
+                <td>
+                    @Html.DisplayFor(x => articulo.Modelo)
+                </td>
+
+                <td>
+                    <form asp-action="Comprar">
+                        <input type="submit" value="Comprar" class="btn btn-primary" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

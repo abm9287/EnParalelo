@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AfectacionMedioAmbiente.Web", "AfectacionMedioAmbiente.Web\AfectacionMedioAmbiente.Web.csproj", "{4296F20A-0166-4323-9AF8-E52D7DD66BBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4296F20A-0166-4323-9AF8-E52D7DD66BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4296F20A-0166-4323-9AF8-E52D7DD66BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4296F20A-0166-4323-9AF8-E52D7DD66BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4296F20A-0166-4323-9AF8-E52D7DD66BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89466D1D-5B62-4C95-BCFC-43AB7E6BC381}
+	EndGlobalSection
+EndGlobal
