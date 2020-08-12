@@ -1,4 +1,4 @@
-En Paralelo
+#En Paralelo
 
 Debes ampliar el programa anterior y utilizar programación en paralelo tanto para las personas como para las empresas. El programa debe respetar las consignas de la rúbrica anterior e incluir las siguientes temáticas, así:
 
